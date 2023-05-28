@@ -9,5 +9,9 @@
     <title>My Shop</title>
 </head>
 <body>
+
+<?php
+        require('./components/Header/index.php')
+    ?>
 </body>
 </html>

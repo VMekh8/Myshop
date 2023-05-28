@@ -15,3 +15,92 @@ body {
 a {
     text-decoration: none;
 }
+
+.header_wrapper {
+    background-color: #c0c0c0;
+}
+
+.header_container {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1230px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header_buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header_button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+    font-size: 14px;
+}
+
+#login {
+    background-color: #28a9a9;
+}
+
+#register {
+    background-color: #707373;
+    color: #fff;
+}
+
+#login:hover{
+    background-color: #2ac0c0;
+    color: #fff;
+}
+
+#register:hover{
+    background-color: #eaecec;
+    color: #000;
+}
+
+.nav_items {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    padding: 5px 10px;
+}
+
+.nav-link, .logo {
+    transition: all .3s ease-out;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.logo:hover{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 645px){
+    .header_container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 422px){
+    .nav_items {
+        justify-content: center;
+    }
+}
