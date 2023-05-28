@@ -9,8 +9,7 @@
     <title>My Shop</title>
 </head>
 <body>
-
-<?php
+    <?php
         require('./components/Header/index.php');
         require('./components/Hero/index.php')
     ?>
