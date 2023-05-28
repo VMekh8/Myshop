@@ -11,7 +11,8 @@
 <body>
 
 <?php
-        require('./components/Header/index.php')
+        require('./components/Header/index.php');
+        require('./components/Hero/index.php')
     ?>
 </body>
 </html>
